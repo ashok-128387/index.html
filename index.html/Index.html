@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="card card-custom bg-customs">
+        <div class="card-body card-body-custom">
+          <div>
+            <h5 class="card-header-custom">160</h5>
+            <p><b>License Purchased</b></p>
+          </div>
+          <div>
+            <img src="desktop.png" alt="License Purchased">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+        <div class="card card-custom bg-custom">
+          <div class="card-body card-body-custom">
+            <div>
+              <h5 class="card-header-custom">154</h5>
+              <p>Total Students</p>
+            </div>
+            <div>
+              <img src="certificate.png" alt="Total Students">
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="card card-custom bg-customed">
+        <div class="card-body card-body-custom">
+          <div>
+            <h5 class="card-header-custom">154</h5>
+            <p><b>Licenses Required</b></p>
+          </div>
+          <div>
+            <img src="conditions.png" alt="Licenses Required">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="instituteName">Name Of The Institute</label>
+          <input type="text" class="form-control" id="instituteName" value="Techno India NJR" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="adminEmail">Admin Email</label>
+          <input type="email" class="form-control" id="adminEmail" value="admin@gmail.com" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="institutionCode">Institution Code</label>
+          <input type="text" class="form-control" id="institutionCode" value="1001" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="licensePurchased">License Purchased</label>
+          <input type="number" class="form-control" id="licensePurchased" value="160" readonly>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="totalStudents">Total Number Of Students</label>
+          <input type="number" class="form-control" id="totalStudents" value="154" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="studentsCreated">Students Created</label>
+          <input type="number" class="form-control" id="studentsCreated" value="154" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="address1">Address 1</label>
+          <input type="text" class="form-control" id="address1" value="Kaladwas, Udaipur, Rajasthan" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="address2">Address 2</label>
+          <input type="text" class="form-control" id="address2" value="Rajasthan" readonly>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="city">City</label>
+          <input type="text" class="form-control" id="city" value="Udaipur" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="state">State</label>
+          <input type="text" class="form-control" id="state" value="Rajasthan" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="country">Country</label>
+          <input type="text" class="form-control" id="country" value="India" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="zipcode">Zipcode</label>
+          <input type="text" class="form-control" id="zipcode" value="313003" readonly>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="contactName">Contact Name</label>
+          <input type="text" class="form-control" id="contactName" value="Akilesh Arya" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <label for="contactNumber">Contact Number</label>
+          <input type="text" class="form-control" id="contactNumber" value="9898989898" readonly>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3 ">
+          <button type="button" class="btn btn-primary btn-custom">Add Faculty</button>
+        </div>
+        <div class="form-group col-md-3 col-sm-6 px-3">
+          <button type="button" class="btn btn-primary btn-custom">Edit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
